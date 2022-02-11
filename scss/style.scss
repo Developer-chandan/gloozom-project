@@ -1,0 +1,167 @@
+
+.my-bg{
+  background: black !important;
+}
+.text-light{
+  color: white !important;
+}
+.navbar{
+  background: #000 !important;
+  .nav-link{
+    text-transform: uppercase;
+  }
+  .nav-item{
+    padding-right: 1em;
+  }
+  .nav-item:last-child{
+    padding-right: 0em;
+  }
+}
+#showcase{
+  h1{
+    color: white;
+  }
+}
+.carousel-item{
+  height: 450px;;
+}
+.carousel-img-1{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+
+.carousel-img-3{
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+#home-icon{
+  i{
+    font-size:2.5rem;
+    color: red;
+  }
+
+  .home-animation-part1, .home-annimatee-part2, .home-animation-part3{
+    box-shadow: 0px 0px 10px 2px #ddd;
+    padding:20px 15px 12px 15px;
+    h3{
+      font-size:1.6rem !important;
+      padding-top: 20px;
+    }
+
+
+
+
+  }
+
+  }
+
+
+
+#getstart-section{
+  background: url('../img/bg1.jpeg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+  .dark-overly{
+    background:rgba(0,0,0,0.76);
+
+  }
+
+}
+#crash-corse{
+  background: url('../img/people.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .dark-overly{
+    background:rgba(0,0,0,0.5);
+
+  }
+  .fa{
+    color: red;
+    font-size: 3rem;
+
+  }
+  h2{
+    color: white;
+  }
+}
+#photo-gallery{
+  img{
+    min-height: 230px;
+  }
+}
+footer{
+  p{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+  }
+}
+#about-image{
+  background: url('../img/image1.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+#infor-section{
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+#demo-box{
+  i{
+    font-size:3.2rem;
+  }
+}
+#testimonial{
+  .slick-prev:before,
+  .slick-next:before
+  {
+    color:black;
+  }
+}
+
+#service-image-heading{
+  background: url('../img/image3.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repate;
+}
+#blog-header-image{
+  background: url('../img/image3.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repate;
+}
+#contact-header-image{
+  background: url('../img/image2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repate;
+}
+
+/*******anination scroll**/
+.button-animate, .home-animation, .carosel-animate-descp, .home-animation-part1, .home-annimatee-part2, .home-animation-part3, .start-anition-title, .start-anition-descp, .info-animate-image, .info-animate-descp, .play-animation, .header-animation, .photo-title-animate, .first-row-image, .second-row-image, .signup-inner, .signup-form, .about-header-h1, .about-header-descp, .information-descp, .information-image, .first-box-row-animate, .second-box-row-animate, .service-header-animate-h1, .service-header-animate-descp, .card-animation-service, .blog-title-animate, .blog-descp-animate, .blog-box-animate, .contact-title-animate, .contact-descp-animate, .contact-box-up-animate, .contact-box-left-animate, .contact-box-right-animate, .contact-box-down-animate, .contact-zoomin-animate{
+  opacity: 0;
+}
+.button-animate .animate__animated, .home-animation .animate__animated, .carosel-animate-descp .animate__animated, .home-animation-part1 .animate__animated, .home-annimatee-part2 .animate__animated, .home-animation-part3 .animate__animated, .start-anition-title .animate__animated, .start-anition-descp .animate__animated, .info-animate-image .animate__animated, .info-animate-descp .animate__animated, .play-animation .animate__animated, .header-animation .animate__animated, .photo-title-animate .animate__animated, .first-row-image .animate__animated, .second-row-image .animate__animated, .signup-inner .animate__animated, .signup-form .animate__animated, .about-header-h1 .animate__animated, .about-header-descp .animate__animated, .information-descp .animate__animated, .information-image .animate__animated, .first-box-row-animate .animate__animated, .second-box-row-animate .animate__animated, .service-header-animate-h1 .animate__animated, .service-header-animate-descp .animate__animated, .card-animation-service .animate__animated, .blog-title-animate .animate__animated, .blog-descp-animate .animate__animated, .blog-box-animate .animate__animated, .contact-title-animate .animate__animated, .contact-descp-animate .animate__animated, .contact-box-up-animate .animate__animated, .contact-box-left-animate .animate__animated, .contact-box-right-animate .animate__animated, .contact-box-down-animate .animate__animated, .contact-zoomin-animate .animate__animated{
+  opacity: 1 !important;
+}
+
+
+
+@media (max-width:480px) {
+  .carousel{
+    h1{
+      font-size:2.5rem;
+    }
+  }
+}
