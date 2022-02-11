@@ -5,7 +5,8 @@
   color: white !important; }
 
 .navbar {
-  background: #000 !important; }
+  background: #000 !important;
+    padding: 1rem 0; }
   .navbar .nav-link {
     text-transform: uppercase; }
   .navbar .nav-item {
@@ -33,7 +34,7 @@
 
 #home-icon i {
   font-size: 2.5rem;
-  color: red; }
+  color: #1d5582;}
 
 #home-icon .home-animation-part1, #home-icon .home-annimatee-part2, #home-icon .home-animation-part3 {
   box-shadow: 0px 0px 10px 2px #ddd;
